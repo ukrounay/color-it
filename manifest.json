@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Color It!",
+    "version": "0.2",
+    "description": "[розробка] Хрестики-нолики на сучасний лад",
+    "icons": {
+        "128": "res/128.png",
+        "534": "res/534.png"
+    },
+    "action": {
+        "default_icon": "res/logo.png",
+        "default_title": "Color It!",
+        "default_popup": "index.html",
+        "theme_icons": [{
+          "light": "icons/geo-16-light.png",
+          "dark": "icons/geo-16.png",
+          "size": 16
+        }, {
+          "light": "icons/geo-32-light.png",
+          "dark": "icons/geo-32.png",
+          "size": 32
+        }]
+      }
+}
